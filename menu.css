@@ -129,9 +129,26 @@ footer a:active {
   border: 1px solid #000000;
 }
 
+<<<<<<< HEAD
 .Main>section {
   width: 30%;
   border: 20px solid #236154;
+=======
+
+
+
+#Roasted_Tomato_and_Basil_Bruschetta{
+<<<<<<< HEAD
+  width:33%;
+  flex-wrap: wrap;
+  padding: 10%;
+=======
+width:33%;
+flex-wrap: wrap;
+
+
+>>>>>>> 3e8dcbbdbeb10b5d56ff967d1822a1934bd25cf4
+>>>>>>> ad603cc6de810aaf9dac81d5f78f74919b9745fb
 }
 
 .Main img {
