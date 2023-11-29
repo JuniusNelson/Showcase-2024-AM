@@ -37,13 +37,13 @@ header {
 }
 h1.title {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 50px;
   margin: 0;
 }
 
 body {
   text-align: center;
-  font: 16px Georgia, sans-serif;
+  font: 30px Georgia, sans-serif;
   line-height: 1.6;
   color: #000000;
   margin: 0;
@@ -62,7 +62,7 @@ header {
 
 h1.title {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 100px;
   margin: 0;
 }
 
@@ -95,12 +95,12 @@ nav a:hover {
 
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 40px;
   background-color: #236154;
-  position: fixed;
   bottom: 0;
   width: 100%;
   border-top: 2px solid #000000;
+  margin-top: 30px;
 }
 
 
@@ -129,73 +129,78 @@ footer a:active {
   border: 1px solid #000000;
 }
 
-
-
-
-#Roasted_Tomato_and_Basil_Bruschetta{
-width:33%;
-flex-wrap: wrap;
-
-
+.Main>section {
+  width: 30%;
+  border: 20px solid #236154;
 }
 
-
-#hard-shell-tacos{
-width:33%
-flex-wrap: wrap;
+.Main img {
+  max-width: 100%;
 }
 
-
-#VegetarianVelociraptorWraps{
-width:33%;
-flex-wrap: wrap;
+.Main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-#chickennuggetswithbbqsauce{
-width:100%
+.Main>h1 {
+  width: 100%;
 }
 
-#bacon-sweetheart{
+.Appitizers>section {
+  width: 30%;
+  border: 20px solid #236154;
 }
 
-#Spinach-and-Artichoke-Dip{
+.Appitizers img {
+  max-width: 100%;
 }
 
-#Asian-Buffalo-Wings{
+.Appitizers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-#DinoEggs{
+.Appitizers>h1 {
+  width: 100%;
 }
 
-
-#lacinato-kale-caesar{
+.Sides>section {
+  width: 30%;
+  border: 20px solid #236154;
 }
 
-
-#Air-Fryer-French-Fries{
+.Sides img {
+  max-width: 100%;
 }
 
-
-#broccoli{
+.Sides {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-
-#AirFryerTaterTots{
+.Sides>h1 {
+  width: 100%;
 }
 
-
-#lava-cake{
+.Desserts>section {
+  width: 30%;
+  border: 20px solid #236154;
 }
 
-
-#DinoBoneCookies{
+.Desserts img {
+  max-width: 100%;
 }
 
-
-#Chocolate-eggs{
+.Desserts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-
-
-
-
+.Desserts>h1 {
+  width: 100%;
+}

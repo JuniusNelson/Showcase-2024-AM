@@ -118,3 +118,9 @@ footer a:active {
     border-radius: 10px;
     border: 1px solid #000000; 
 }
+
+#words{
+  flex-direction: column-reverse;
+  align-items: end;
+  
+}
