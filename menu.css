@@ -35,6 +35,7 @@ header {
   padding: 20px;
   position: relative;
 }
+
 h1.title {
   color: #ffffff;
   font-size: 50px;
@@ -50,7 +51,6 @@ body {
   padding: 0;
   background-color: #F8F8F0;
 }
-
 
 header {
   background-color: #5B9676;
@@ -125,52 +125,21 @@ footer a:active {
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   padding: 4%;
-  border-radius: 10px;
-  border: 1px solid #000000;
-}
-
-<<<<<<< HEAD
-.Main>section {
-  width: 30%;
-  border: 20px solid #236154;
-=======
-
-
-
-#Roasted_Tomato_and_Basil_Bruschetta{
-<<<<<<< HEAD
-  width:33%;
-  flex-wrap: wrap;
-  padding: 10%;
-=======
-width:33%;
-flex-wrap: wrap;
-
-
->>>>>>> 3e8dcbbdbeb10b5d56ff967d1822a1934bd25cf4
->>>>>>> ad603cc6de810aaf9dac81d5f78f74919b9745fb
-}
-
-.Main img {
-  max-width: 100%;
 }
 
 .Main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
-.Main>h1 {
-  width: 100%;
-}
-
-.Appitizers>section {
+.Main>section {
   width: 30%;
-  border: 20px solid #236154;
+  border: 20px solid #5B9676;
 }
 
-.Appitizers img {
+.Main img {
   max-width: 100%;
 }
 
@@ -178,18 +147,15 @@ flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
-.Appitizers>h1 {
-  width: 100%;
-}
-
-.Sides>section {
+.Appitizers>section {
   width: 30%;
-  border: 20px solid #236154;
+  border: 20px solid #5B9676;
 }
 
-.Sides img {
+.Appitizers img {
   max-width: 100%;
 }
 
@@ -197,18 +163,15 @@ flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
-.Sides>h1 {
-  width: 100%;
-}
-
-.Desserts>section {
+.Sides>section {
   width: 30%;
-  border: 20px solid #236154;
+  border: 20px solid #5B9676;
 }
 
-.Desserts img {
+.Sides img {
   max-width: 100%;
 }
 
@@ -216,8 +179,15 @@ flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: flex-start;
 }
 
-.Desserts>h1 {
-  width: 100%;
+.Desserts>section {
+  width: 30%;
+  border: 20px solid #5B9676;
 }
+
+.Desserts img {
+  max-width: 100%;
+}
+
