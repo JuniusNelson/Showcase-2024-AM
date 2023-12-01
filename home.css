@@ -137,3 +137,11 @@ footer a:active {
   width: 100%;
 }
 
+.Main img,
+.Appitizers img,
+.Sides img,
+.Desserts img {
+  max-width: 100%;
+  width: 600px; 
+  height: 400px; 
+}
