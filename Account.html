@@ -24,17 +24,20 @@
   </ul>
 </nav>
 
-<button onclick="document.getElementById('id01').style.display='block'">Login</button>
+</style>
+</head>
+<body>
 
-<!-- The Modal -->
+<h2>Modal Login Form</h2>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
 <div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'"
-class="close" title="Close Modal">&times;</span>
-
-  <!-- Modal Content -->
-  <form class="modal-content animate" action="/action_page.php">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/10e21e3d-f5d3-4e94-a068-ddbfcb84f500/derjr7s-2af359ba-af66-4989-947b-055421e0711a.png/v1/fill/w_894,h_894,q_70,strp/trex_pfp_commission_by_ninjaillustrations_derjr7s-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzEwZTIxZTNkLWY1ZDMtNGU5NC1hMDY4LWRkYmZjYjg0ZjUwMFwvZGVyanI3cy0yYWYzNTliYS1hZjY2LTQ5ODktOTQ3Yi0wNTU0MjFlMDcxMWEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.S6ojmrfAOAkYKtSqojFY2uoC6Bo3srkVqxJ-Dkrk0cc" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
@@ -43,7 +46,7 @@ class="close" title="Close Modal">&times;</span>
 
       <label for="psw"><b>Password</b></label>
       <input type="password" placeholder="Enter Password" name="psw" required>
-
+        
       <button type="submit">Login</button>
       <label>
         <input type="checkbox" checked="checked" name="remember"> Remember me
@@ -57,6 +60,17 @@ class="close" title="Close Modal">&times;</span>
   </form>
 </div>
 
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
 
 <footer>
   <nav>
@@ -67,3 +81,6 @@ class="close" title="Close Modal">&times;</span>
       </ul>
   </nav>
 </footer>
+
+</body>
+</html>
