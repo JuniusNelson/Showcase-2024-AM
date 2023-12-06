@@ -1,7 +1,37 @@
-body{
-background-image: ;
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #236154;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+  max-width: 100%;
 }
 
+footer a:link,
+footer a:visited {
+  margin-right: 20px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+  color: #ffffff;
+}
+
+header {
+  background-color: #5B9676;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+h1.title {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0;
+}
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;

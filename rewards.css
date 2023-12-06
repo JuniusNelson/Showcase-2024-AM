@@ -1,20 +1,15 @@
-.container {
-  display: inline-block;
-  cursor: pointer;
-  position: absolute;
-  z-index: 1;
-  top: 20px;
-  left: 20px;
-}
 
 h1 {
-  margin-left: 45%;
-  margin-right: 45%;
+  margin: 0; /* Reset margin */
+  text-align: center; /* Center the text */
 }
 
-#dinopic1{
+#dinopic1 {
   width: 40%;
   height: 30%;
+  display: flex;
+  flex-direction: row; /* Correct property name */
+  top: 1%; /* Add unit to top property */
 }
 
 .change .bar1 {
@@ -38,12 +33,12 @@ header {
 
 h1.title {
   color: #ffffff;
-  font-size: 100px;
+  font-size: 50px;
   margin: 0;
+  text-decoration: underline;
 }
 
 body {
-  text-align: center;
   font: 25px Georgia, sans-serif;
   line-height: 1.6;
   color: #000000;
@@ -51,20 +46,6 @@ body {
   padding: 0;
   background-color: #F8F8F0;
   border: 5px solid #236154;
-}
-
-header {
-  background-color: #5B9676;
-  text-align: center;
-  padding: 20px;
-  position: relative;
-}
-
-h1.title {
-  color: #ffffff;
-  font-size: 50px;
-  margin: 0;
-  text-decoration: underline;
 }
 
 nav ul {
@@ -92,8 +73,8 @@ footer {
   padding: 2%;
   background-color: #236154;
   bottom: 0;
-  width: 100%;
-  margin-top: 10%;
+  width: 96%;
+  margin-top: 3%;
   max-width: 100%;
 }
 
@@ -119,18 +100,77 @@ footer a:active {
   border: 2px solid #5B9676;
 }
 
-.login {
+.words {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 15%;
-  margin-left: 50%;
-  margin-bottom: 10%;
-  border: 5px solid #5B9676;
+  justify-content: flex-start;
+  padding: 10px; 
+  font-size: 20px;
 }
 
-.login {
-  background-color: #F8F8F0;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+.words>section {
+  border: 5px solid #5B9676;
+  margin: 1%;
+  padding: 10px;
+}
+
+.first {
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+h2 {
+  font-size: 25px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  background-color: #5B9676;
+  color: #fff;
+  padding: 10px;
+}
+
+.tab {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-content {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group button {
+  background-color: #5B9676;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+function showLoginForm() {
+  document.getElementById('loginForm').style.display = 'block';
+  document.getElementById('signUpForm').style.display = 'none';
+}
+
+function showSignUpForm() {
+  document.getElementById('loginForm').style.display = 'none';
+  document.getElementById('signUpForm').style.display = 'block';
 }

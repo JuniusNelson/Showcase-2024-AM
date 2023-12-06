@@ -38,34 +38,51 @@
         <img src="https://www.preschoollearningonline.com/wp-content/uploads/2021/02/t-rex-silhouette.png" alt="piture">
     </figure>
 
-    <body>
-        <div class="login">
-            <div class="form-container">
-                <form id="signupForm" class="form">
-                    <h2>Sign Up</h2>
-                    <label for="signupUsername">Username:</label>
-                    <input type="text" id="signupUsername" name="signupUsername" required>
-
-                    <label for="signupPassword">Password:</label>
-                    <input type="password" id="signupPassword" name="signupPassword" required>
-
-                    <button type="submit">Sign Up</button>
-                </form>
-
-                <form id="loginForm" class="form">
-                    <h2>Login</h2>
-                    <label for="loginUsername">Username:</label>
-                    <input type="text" id="loginUsername" name="loginUsername" required>
-
-                    <label for="loginPassword">Password:</label>
-                    <input type="password" id="loginPassword" name="loginPassword" required>
-
-                    <button type="submit">Login</button>
-                </form>
-            </div>
+    <div class="container">
+        <div class="tabs">
+          <div class="tab" onclick="showLoginForm()">Login</div>
+          <div class="tab" onclick="showSignUpForm()">Sign Up</div>
         </div>
+        <div class="form-content" id="loginForm">
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="loginUsername">Username:</label>
+              <input type="text" id="loginUsername" name="loginUsername" required>
+            </div>
+            <div class="form-group">
+              <label for="loginPassword">Password:</label>
+              <input type="password" id="loginPassword" name="loginPassword" required>
+            </div>
+            <div class="form-group">
+              <button type="submit">Login</button>
+            </div>
+          </form>
+        </div>
+        <div class="form-content" id="signUpForm" style="display: none;">
+          <form action="#" method="post">
+            <div class="form-group">
+              <label for="signUpUsername">Username:</label>
+              <input type="text" id="signUpUsername" name="signUpUsername" required>
+            </div>
+            <div class="form-group">
+              <label for="signUpPassword">Password:</label>
+              <input type="password" id="signUpPassword" name="signUpPassword" required>
+            </div>
+            <div class="form-group">
+              <button type="submit">Sign Up</button>
+            </div>
+          </form>
+        </div>
+      </div>
 
-        <section id="words">
+    <body>
+       
+
+        <section class="first">
+
+            <h1>
+                Why Join BigDinoDiner Rewards?
+            </h1>
 
             <p>
                 Unlock a world of exclusive benefits and exciting rewards with BigDinoDiner Rewards! We believe in
@@ -73,43 +90,56 @@
                 elevate your experience.
             </p>
 
-            <h1>
-                Why Join BigDinoDiner Rewards?
-                1. Earn Points, Enjoy Rewards
-            </h1>
+        </section>
 
-            <p>
-                Every purchase brings you closer to amazing rewards. Earn points effortlessly and redeem them for a
-                variety of enticing options, from discounts and special offers to exclusive products.
-            </p>
 
-            <h1>
-                2. Exclusive Access
-            </h1>
+        <section class="words">
+            <section>
+                <h2>
+                    1. Earn Points, Enjoy Rewards
+                </h2>
 
-            <p>
-                As a BigDinoDiner Rewards member, you'll gain access to exclusive events, early sales, and
-                limited-edition items. Enjoy VIP treatment and be the first to experience what's new.
-            </p>
+                <p>
+                    Every purchase brings you closer to amazing rewards. Earn points effortlessly and redeem them for a
+                    variety of enticing options, from discounts and special offers to exclusive products.
+                </p>
+            </section>
 
-            <h1>
-                3. Personalized Offers
-            </h1>
 
-            <p>
-                Tailored just for you! Receive personalized offers and promotions based on your preferences and shopping
-                habits. It's our way of saying thank you for being a part of the BigDinoDiner family.
-            </p>
 
-            <h1>
+            <section>
+                <h2>
+                    2. Exclusive Access
+                </h2>
+
+                <p>
+                    As a BigDinoDiner Rewards member, you'll gain access to exclusive events, early sales, and
+                    limited-edition items. Enjoy VIP treatment and be the first to experience what's new.
+                </p>
+            </section>
+
+            <section>
+                <h2>
+                    3. Personalized Offers
+                </h2>
+
+                <p>
+                    Tailored just for you! Receive personalized offers and promotions based on your preferences and
+                    shopping
+                    habits. It's our way of saying thank you for being a part of the BigDinoDiner family.
+                </p>
+            </section>
+
+<section>
+            <h2>
                 4. Birthday Surprises
-            </h1>
+            </h2>
 
             <p>
                 Celebrate your special day with a little extra love. Enjoy exclusive birthday surprises and discounts as
                 our way of making your day even more memorable.
             </p>
-
+</section>
         </section>
 
         <footer>
