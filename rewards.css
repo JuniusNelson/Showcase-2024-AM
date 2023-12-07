@@ -1,41 +1,13 @@
-
-h1 {
-  margin: 0; /* Reset margin */
-  text-align: center; /* Center the text */
-}
-
-#dinopic1 {
-  width: 40%;
-  height: 30%;
-  display: flex;
-  flex-direction: row; /* Correct property name */
-  top: 1%; /* Add unit to top property */
-}
-
-.change .bar1 {
-  transform: translate(0, 11px) rotate(-45deg);
-}
-
-.change .bar2 {
-  opacity: 0;
-}
-
-.change .bar3 {
-  transform: translate(0, -11px) rotate(45deg);
-}
-
 header {
   background-color: #5B9676;
   text-align: center;
   padding: 20px;
   position: relative;
 }
-
-h1.title {
+title {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 24px;
   margin: 0;
-  text-decoration: underline;
 }
 
 body {
@@ -46,6 +18,13 @@ body {
   padding: 0;
   background-color: #F8F8F0;
   border: 5px solid #236154;
+}
+
+h1.title {
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0;
+  text-decoration: underline;
 }
 
 nav ul {
@@ -67,7 +46,6 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
-
 footer {
   text-align: center;
   padding: 2%;
@@ -118,16 +96,14 @@ footer a:active {
   margin-left: 8px;
   margin-right: 8px;
 }
-
-h2 {
-  font-size: 25px;
-}
 .tabs {
   display: flex;
   justify-content: space-between;
-  background-color: #5B9676;
+  background-color: #236154;
   color: #fff;
-  padding: 10px;
+  padding: 3px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .tab {
@@ -152,12 +128,12 @@ h2 {
   width: 100%;
   padding: 8px;
   box-sizing: border-box;
-  border: 1px solid #ccc;
+  border: 1px solid #5B9676;
   border-radius: 4px;
 }
 
 .form-group button {
-  background-color: #5B9676;
+  background-color: #236154;
   color: #fff;
   padding: 10px;
   border: none;
@@ -173,4 +149,77 @@ function showLoginForm() {
 function showSignUpForm() {
   document.getElementById('loginForm').style.display = 'none';
   document.getElementById('signUpForm').style.display = 'block';
+}
+
+.tabs {
+  display: flex;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #5B9676;
+}
+
+.form-content {
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.howtosignup {
+  display: flex;
+  justify-content: center;
+}
+
+.dinopic1 {
+  flex: 1;
+}
+
+.dinopic1 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.words2 {
+  flex: 2;
+}
+
+.words2 h1,
+.words2 h2 {
+  color: #000000;
+  font-size: 30px; s
+}
+
+.words2 p {
+  line-height: 1.5;
+  color: #555;
 }
