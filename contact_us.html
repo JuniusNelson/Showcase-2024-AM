@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BigDinoDiner</title>
-    <link rel="stylesheet" href="contact_us.css">
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="rewards.html">Rewards</a></li>
-        <li><a href="Locations.html">Locations</a></li>
-        <li><a href="gift_card.html">GiftCards</a></li>
-        <li><a href="Account.html">Account</a></li>
-  
-    </ul>
-</nav>
-
-</head>
-
 <body>
-
+    <html>
     <header>
         <h1 class="title">Contact Us</h1>
     </header>
 
+    <section>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>BigDinoDiner</title>
+            <link rel="stylesheet" href="home.css">
+
+    </section>
+
+    <section class="webpages">
+        <header>
+            <nav>
+                <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="rewards.html">Rewards</a></li>
+      <li><a href="Locations.html">Locations</a></li>
+      <li><a href="giftcardSHOP.html">GiftCards</a></li>
+      <li><a href="Account.html">Account</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section class="words">
     <section>
         <h1>
             Comments or Questions
@@ -37,9 +44,54 @@
             BigDinoDiner@gmail.com
         </p>
     
-        <p>
-            <a>Send Feedback</a>
+        <p class="feedback-box">
+            <a href="#">Send Feedback</a>
         </p>
+
+    </section>
+
+    <main>
+        <section id="contact-form">
+            <h2>Contact Us</h2>
+            <form action="process_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Address: Your Business Address</p>
+            <p>Phone: Your Phone Number</p>
+            <p>Email: Your Email Address</p>
+            <p>Operating Hours: Your Business Hours</p>
+        </section>
+    
+        <section id="map">
+            <!-- Embed your map here (use the appropriate code from Google Maps or another mapping service) -->
+        </section>
+    
+        <section id="social-media">
+            <h2>Connect With Us</h2>
+            <!-- Add links to your social media profiles -->
+            <a href="https://www.facebook.com/yourpage">Facebook</a>
+            <a href="https://twitter.com/yourhandle">Twitter</a>
+            <!-- Add more social media links as needed -->
+        </section>
+    
+       
+    </main>
     </section>
 
     <section>
