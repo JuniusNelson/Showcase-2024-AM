@@ -6,26 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Account</title>
   <link rel="stylesheet" href="Account.css">
-</head>
-<body>
-<nav>
-  <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="menu.html">Menu</a></li>
-      <li><a href="rewards.html">Rewards</a></li>
-      <li><a href="Locations.html">Locations</a></li>
-      <li><a href="gift_card.html">GiftCards</a></li>
-      <li><a href="Account.html">Account</a></li>
 
-  </ul>
-</nav>
 
-</style>
+  <header>
+    <h1 class="title">login Form</h1>
+</header>
+
 </head>
 <body>
 
-<h2>Modal Login Form</h2>
 
+
+<section class="webpages">
+  <header>
+      <nav>
+          <ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="menu.html">Menu</a></li>
+<li><a href="rewards.html">Rewards</a></li>
+<li><a href="Locations.html">Locations</a></li>
+<li><a href="giftcardSHOP.html">GiftCards</a></li>
+<li><a href="Account.html">Account</a></li>
+
+          </ul>
+      </nav>
+  </header>
+</section>
+
+<section class="thepage">
+<section>
 <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 
 <div id="id01" class="modal">
@@ -33,7 +42,7 @@
   <form class="modal-content animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/10e21e3d-f5d3-4e94-a068-ddbfcb84f500/derjr7s-2af359ba-af66-4989-947b-055421e0711a.png/v1/fill/w_894,h_894,q_70,strp/trex_pfp_commission_by_ninjaillustrations_derjr7s-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzEwZTIxZTNkLWY1ZDMtNGU5NC1hMDY4LWRkYmZjYjg0ZjUwMFwvZGVyanI3cy0yYWYzNTliYS1hZjY2LTQ5ODktOTQ3Yi0wNTU0MjFlMDcxMWEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.S6ojmrfAOAkYKtSqojFY2uoC6Bo3srkVqxJ-Dkrk0cc" alt="Avatar" class="avatar">
+      <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/10e21e3d-f5d3-4e94-a068-ddbfcb84f500/derjr7s-2af359ba-af66-4989-947b-055421e0711a.png/v1/fill/w_894,h_894,q_70,strp/trex_pfp_commission_by_ninjaillustrations_derjr7s-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzEwZTIxZTNkLWY1ZDMtNGU5NC1hMDY4LWRkYmFjYmI4NGY1MDBcL2RlcmpyN3MtMmFmMzU5YmEtYWY2Ni00OTg5LTk0N2ItMDU1NDIxZTA3MTFhLnBuZyIsIndpZHRoIjoiPD0xMjgwIn1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.S6ojmrfAOAkYKtSqojFY2uoC6Bo3srkVqxJ-Dkrk0cc" alt="Avatar" class="avatar">
     </div>
 
     <div class="container">
@@ -55,6 +64,7 @@
     </div>
   </form>
 </div>
+</section>
 
 <script>
 // Get the modal
@@ -67,6 +77,41 @@ window.onclick = function(event) {
     }
 }
 </script>
+
+<section>
+  <h3>Profile Information</h3>
+  <label for="profile-picture">Profile Picture:</label>
+  <input type="file" id="profile-picture" accept="image/*">
+  
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Your Name">
+
+  <label for="bio">Bio:</label>
+  <textarea id="bio" placeholder="Write a short bio"></textarea>
+
+  <!-- Add more profile information fields as needed -->
+</section>
+
+<section>
+  <h3>Security Settings</h3>
+  <label for="password">Change Password:</label>
+  <input type="password" id="password" placeholder="New Password">
+
+  <label for="confirm-password">Confirm Password:</label>
+  <input type="password" id="confirm-password" placeholder="Confirm New Password">
+
+  <button onclick="changePassword()">Change Password</button>
+  <!-- Add more security settings as needed -->
+</section>
+
+<!-- Add more sections for Notification Preferences, Activity History, Privacy Settings, etc. -->
+
+<section>
+  <h3>Support and Help</h3>
+  <p>For assistance, contact our <a href="mailto:support@example.com">support team</a>.</p>
+</section>
+</section>
+<!-- Add more sections as needed -->
 
 <footer>
   <nav>

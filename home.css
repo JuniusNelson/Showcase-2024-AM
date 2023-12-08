@@ -36,13 +36,6 @@ body {
   border: 5px solid #236154;
 }
 
-header {
-  background-color: #5B9676;
-  text-align: center;
-  padding: 20px;
-  position: relative;
-}
-
 h1.title {
   color: #ffffff;
   font-size: 50px;
