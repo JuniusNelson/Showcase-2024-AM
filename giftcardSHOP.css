@@ -235,5 +235,6 @@ body {
   transition-property: color, background-color;
   transition-duration: 500ms;
   transition-timing-function: ease;
-  margin-left: 1rem;
+  margin-left: 30px;
+  margin-right: 30px;
 }
