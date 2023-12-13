@@ -18,8 +18,9 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
-  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Jurassic-park-4-wallpaper-large-620x349.jpg");
+  background-image: url("cooljppic.jpg");
   background-color: white;
+  background-size: 100%;
 }
 
 nav ul {
@@ -128,12 +129,26 @@ footer a:active {
       border: 1px solid #ccc;
     }
   } 
- #pic141{
+ .pic141{
+  margin: 3vh;
   display: flex;
-  
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2vh;
+ }
+ 
+ .pic141 img {
+  width: 100%;
+  max-width: 500px;
  }
 
- #help141 {
+ #asd {
+  max-width: 900px;
+ }
+
+ .help141 {
   display: block;
     float: right;
     background-color: dodgerblue;
