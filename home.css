@@ -108,27 +108,18 @@ footer a:active {
 .Favorites {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 3vw;
 }
 
 .Favorites>section {
-  width: 50%;
-  max-width: 325px;
-  border: 2px solid #5B9676;
-  font-size: 10px;
+  width: 100%;
+  max-width: 425px;
+  border: 8px solid #5B9676;
+  font-size: 20px;
 
 }
 
 .Favorites>h1 {
   width: 100%;
 }
-
-.Main img,
-.Appitizers img,
-.Sides img,
-.Desserts img {
-  max-width: 100%;
-  width: 600px; 
-  height: 400px; 
-}
-
