@@ -44,8 +44,10 @@ h1.title {
 }
 
 nav ul {
+  display: flex;
   list-style: none;
   text-align: center;
+  justify-content: center;
 }
 
 nav li {
